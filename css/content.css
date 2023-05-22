@@ -1,0 +1,77 @@
+.content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    height: 100%;
+    padding: 1.5rem;
+}
+
+.content__title {
+    color: hsl(223, 47%, 23%);
+    
+    font-size: 1.4rem;
+    font-weight: 900;
+    line-height: 1.4rem;
+}
+
+.content__paragraph {
+    color: hsl(224, 23%, 55%);
+    
+    font-size: .925rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.53rem;
+
+    margin: 0 1rem 0.25rem  1rem;
+}
+
+.content__plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: .75rem;
+
+    margin: 0.125rem 0;
+    width: 100%;
+}
+
+.content__button {
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 1rem 1rem hsl(245, 75%, 52%, 0.2);
+    border-radius: .75rem;
+    border-style: none;
+    color: hsl(225, 100%, 98%);
+
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: .95rem;
+    font-weight: 700;
+
+    height: 3.125rem;
+    margin: 0 0.25rem 0 0;
+    width: 100%;
+
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+.content__button:hover {
+    background-color: hsl(245, 88%, 60%);
+}
+
+.content__button:active {
+    background-color: hsl(245, 79%, 42%);
+}
+
+.content__link {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: .95rem;
+    font-weight: 700;
+    margin: 0 0.25rem 0 0;
+
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+.content__link:hover {
+    color: hsl(245, 79%, 42%);
+}

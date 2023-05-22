@@ -1,0 +1,46 @@
+.plan {
+    align-items: center;
+    display: grid;
+    grid-template-areas:
+    'plan-icon price__title price__title plan-link'
+    'plan-icon price__value price__value plan-link';
+    justify-content: space-between;
+
+    height: 5rem;
+    padding: 1rem;
+}
+
+#plan__icon {
+    grid-area: plan-icon;
+}
+
+#plan__title {
+    color: hsl(223, 47%, 23%);
+    
+    font-size: .85rem;
+    font-weight: 900;
+    
+    grid-area: price__title;
+}
+
+#plan__value {
+    color: hsl(224, 23%, 55%);
+    
+    font-size: .85rem;
+    font-weight: 500;
+    
+    grid-area: price__value;
+}
+
+#plan__link {
+    font-size: .85rem;
+    font-weight: 700;
+    
+    grid-area: plan-link;
+
+    transition: 200ms ease-in-out;
+}
+
+#plan__link:hover {
+    color: hsl(163, 51%, 45%);
+}
