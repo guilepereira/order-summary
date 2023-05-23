@@ -36,7 +36,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Live project on [GitHub](https://guilepereira.github.io/html-css/order-summary/)
+- Live project on [GitHub](https://guilepereira.github.io/order-summary/)
 
 - Solution on [Order Summary by Guile Pereira](https://www.frontendmentor.io/solutions/order-summary-card-solution-bem-and-atomic-design-9btK0dq0Ge)
 
